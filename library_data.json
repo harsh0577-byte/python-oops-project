@@ -1,0 +1,50 @@
+{
+  "name": "Ajmer Public Library",
+  "items": [
+    {
+      "id": 1,
+      "type": "Book",
+      "title": "The Hobbit",
+      "checked_out": false
+    },
+    {
+      "id": 2,
+      "type": "Book",
+      "title": "Dune",
+      "checked_out": false
+    },
+    {
+      "id": 3,
+      "type": "DVD",
+      "title": "Inception",
+      "checked_out": true
+    },
+    {
+      "id": 4,
+      "type": "Magazine",
+      "title": "National Geographic",
+      "checked_out": false
+    }
+  ],
+  "members": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "type": "Member",
+      "borrowed": []
+    },
+    {
+      "id": 2,
+      "name": "Bob Jones",
+      "type": "Member",
+      "borrowed": [
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Carla Diaz",
+      "type": "Librarian"
+    }
+  ]
+}
