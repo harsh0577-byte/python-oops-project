@@ -1,15 +1,4 @@
-"""
-Library item hierarchy.
 
-Demonstrates:
-- ABSTRACTION: LibraryItem is an abstract base class (ABC) that defines a
-  contract every item type must follow.
-- INHERITANCE: Book, DVD, and Magazine all inherit from LibraryItem.
-- POLYMORPHISM: each subclass overrides describe() and late_fee_per_day()
-  so the same method call behaves differently depending on the object.
-- ENCAPSULATION: internal state (like _is_checked_out) is protected and
-  only modified through controlled methods/properties.
-"""
 
 from abc import ABC, abstractmethod
 from itertools import count

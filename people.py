@@ -1,10 +1,3 @@
-"""
-People in the system.
-
-Demonstrates INHERITANCE: both Member and Librarian share common
-attributes/behavior via the Person base class, but Librarian extends
-it with staff-only capabilities.
-"""
 
 from itertools import count
 
@@ -54,7 +47,7 @@ class Member(Person):
 
 
 class Librarian(Person):
-    """A staff member with extra privileges (e.g. adding items to the catalog)."""
+   
 
     def __init__(self, name: str, email: str, employee_code: str):
         super().__init__(name, email)

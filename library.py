@@ -1,10 +1,3 @@
-"""
-The Library class ties everything together.
-
-Demonstrates ENCAPSULATION: the catalog and member registry are private
-dictionaries. Outside code can only interact with them through public
-methods (add_item, checkout, return_item, search, ...), never directly.
-"""
 
 import json
 from datetime import date
